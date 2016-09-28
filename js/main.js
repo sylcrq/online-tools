@@ -86,7 +86,7 @@
               }
               asyncUpdate();
             } else {
-              output.val(method(event.target.result));
+              output.val(method(event.target.result).toUpperCase());
             }
           } catch(e) {
             output.val(e);
